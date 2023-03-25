@@ -1,0 +1,35 @@
+make an encoder which encodes the given string as follows:
+AAAAABBHHFFFSSSSS 
+[A5B2H2F3S5]
+then decode the encoded array 
+
+ENCODER
+
+when you get to a new char, raise a flag which enters a loop and counts how many peeps there are
+after that finishes, detect that and lower the flag
+then it starts counting again to find a new char
+repeat
+
+declarearrayhere
+hold = ""
+ctr = 0
+arrctr = 1
+loop
+if c != hold
+    flag = 1
+    j = i
+while flag = 1
+    if str[j] == v // match
+        ctr++
+        
+    else if str[j] != v // no more match
+        flag = 0
+        arr[arrctr] = hold
+        arr[arrctr+1] = "$ctr"
+        arrctr += 2
+        break
+    j++
+[AAABB]
+which kinda works i guess now get rid of them useless undefs
+
+

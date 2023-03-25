@@ -1,0 +1,11 @@
+check each row. find min and max. return value. also we know the row
+find min or max in the column. check if it is a saddle point.
+
+Pascal's Triongle
+
+
+first row. insert one and skip.
+insert one to first index of the row.
+now it is at [i, j]. add [i-1, j] + [i-1, j-1]
+
+
